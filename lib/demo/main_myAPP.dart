@@ -84,7 +84,7 @@ class MyHomePageState extends State<MyHomePage> {
       child: Container(
         padding:const EdgeInsets.all(16.0),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             buttonColumn(Icons.call, 'CALL'),
             buttonColumn(Icons.near_me, 'ROUTE'),
